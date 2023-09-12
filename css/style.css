@@ -1,0 +1,525 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg-img{
+    position: relative;
+    width: 100%;
+    height: 90vh;
+}
+.bg-image{
+    width: 100%;
+    height: 100%;
+    filter: brightness(.3);
+}
+.top-bar{
+    width: 100% !important;
+    height: 150px;
+    filter: brightness(1);
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+}
+
+.lang{
+    color: rgb(158, 158, 158);
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+    font-weight: bolder;
+}
+.email-box{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    text-align: center;
+}
+.divider{
+    height: 10px;
+    width: 100%;background-color: rgb(37, 37, 37);
+}
+.tv-boxs{
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.tv-para{
+    color: white;
+    padding: 100px;
+}
+.tv-para h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+.tv-para p{
+    font-size: 25px;
+    font-weight: bold;
+}
+.tv-img{
+    position: relative;
+}
+.tv-v{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.tv-v2{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    overflow: hidden;
+    transform: translate(-50%,-50%);
+}
+.tv-img img{
+    width: 100%;
+    overflow: hidden;
+}
+.tv-l2{
+    width: 40%;
+}
+.tv-r2{
+    width: 50%;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+.tv-img2{
+    width: 100%;
+    margin-left: 100px;
+}
+.tv-img img{
+    width: 100%;
+}
+.tv-para2 h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+}
+.tv-para2 p{
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+}
+.tv-l4{
+    width: 49%;
+}
+.tv-r4{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.tv-img4{
+    width: 100%;
+}
+.box{
+    width: 100%;
+    background-color: black;
+}
+.heading h1{
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+    padding-top: 30px;
+}
+.q-boxs{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.q-box{
+    width: 75%;
+    padding: 25px 15px;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(37, 37, 37);
+    margin-top: 10px;
+}
+.q-box span{
+    float: right;
+    font-size: 40px;
+}
+.q-mail{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+.q-mail p{
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.footer{
+    background-color: black !important;
+}
+.footer-h{
+    color: rgb(189, 189, 189) ;
+    margin-bottom: 20px;
+    font-size: 20px;
+    width: 100%;
+}
+.footer-list{
+    width: 33%;
+    margin-bottom: 20px;
+}
+.footer-list a{
+    color: rgb(189, 189, 189);
+    list-style-type: none;
+}
+.footer-list li{
+    margin-bottom: 15px;
+}
+.footer-lh{
+    color: rgb(189, 189, 189);
+    width: 100%;
+    margin-top: 15px;
+}
+.s-bg-img{
+    position: relative;
+    width: 100%;
+}
+.s-box{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    padding: 50px 50px 80px 50px;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,0.8436624649859944) 50%, rgba(0,0,0,0.5803571428571428) 100%);
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.s-content{
+    width: 100%;
+}
+.s-box h1{
+    margin-bottom: 10px;
+}
+.sign-box{
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    background-color: rgb(44, 44, 44);
+    outline: none;
+    border: 1px solid rgb(72, 72, 72);
+}
+.sign-box::placeholder{
+    padding-left: 25px;
+    font-size: larger;
+}
+.sign-btn{
+    width: 100%;
+    height: 50px;
+    margin: 40px 0 25px;
+    background-color: rgb(229, 9, 20);
+    border: 0;
+    color: white;
+    font-size: large
+}
+.n-h{
+    text-decoration: none;
+    color:rgb(72, 72, 72) ;
+    float: right;
+}
+.s-r{
+    color: rgb(72, 72, 72) !important;
+}
+.s-content p{
+    color: rgb(72, 72, 72);
+    margin-top: 10px;
+}
+.su-b{
+    color: white;
+    font-size: larger;
+    text-decoration: none;
+}
+.sl-b{
+    color: rgb(38, 0, 255);
+    font-size: medium;
+    text-decoration: none;
+}
+@media (min-width:992px) {
+    .icon{
+        width: 180px !important;
+        padding-left: 160px;
+    }
+    
+    .top-right{
+        filter: brightness(1) !important;
+        width: 75% !important;
+    }
+    .top-left{
+        width: 24%;
+        display: flex;
+        align-items: center;
+    }
+    .l-btn{
+        background-color: transparent;
+        border: 1px solid rgb(95, 95, 95);
+        border-radius: 5px;
+        color: white;
+        height: 30px;
+        width: 120px;
+        display: flex;
+        align-items: center;
+    }
+    .s-btn button{
+        background-color: rgb(229, 9, 20);
+        color: white;
+        width: 70px;
+        height: 35px;
+        border: 0;
+        margin: 15px;
+        border-radius: 5px;
+        font-weight: bolder;
+    }
+    .s-btn button:hover{
+        background-color: rgb(193, 35, 43);
+    }
+    .email-box h1{
+        font-size: 3rem;
+        font-weight: 900;
+        margin-bottom: 15px;
+    }
+    .email-box h3{
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+    .email-box h5{
+        font-size: 1.25rem;
+        margin-bottom: 20px;
+    }
+    .email-btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .email{
+        outline: rgb(160, 160, 160);
+        width: 350px;
+        height: 50px;
+        background-color: transparent;
+        padding-left: 15px;
+        border: 0.5px solid rgb(81, 81, 81);
+        color: rgb(131, 130, 130);
+        font-size: larger;
+        border-radius: 5px;
+    }
+    .email-btn button{
+        margin-left: 15px;
+        width: 150px;
+        height: 50px;
+        background-color:  rgb(229, 9, 20);
+        color: white;
+        border: 0;
+        font-size: larger;
+        font-weight: bolder;
+        border-radius: 5px;
+    }
+    .email-btn button:hover{
+        background-color: rgb(200, 36, 44);
+    }
+    .tv-left{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .tv-right{
+        width: 49%;
+    }
+    .footer-body{
+        padding: 80px 180px 10px 180px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width:768px) and (max-width:991.98px){
+    .icon{
+        width: 140px !important;
+        padding-left: 80px;
+    }
+    
+    .top-right{
+        filter: brightness(1) !important;
+        width: 75% !important;
+    }
+    .top-left{
+        width: 24%;
+        display: flex;
+        align-items: center;
+    }
+    .l-btn{
+        background-color: transparent;
+        border: 1px solid rgb(95, 95, 95);
+        border-radius: 5px;
+        color: white;
+        height: 30px;
+        width: 120px;
+        display: flex;
+        align-items: center;
+    }
+    .s-btn button{
+        background-color: rgb(229, 9, 20);
+        color: white;
+        width: 70px;
+        height: 35px;
+        border: 0;
+        margin: 15px;
+        border-radius: 5px;
+        font-weight: bolder;
+    }
+    .email-box h1{
+        font-size: 3rem;
+        font-weight: 900;
+        margin-bottom: 15px;
+    }
+    .email-box h3{
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+    .email-box h5{
+        font-size: 1.25rem;
+        margin-bottom: 20px;
+    }
+    .email-btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .email{
+        width: 350px;
+        height: 50px;
+        background-color: transparent;
+        padding-left: 15px;
+        border: 0.5px solid rgb(81, 81, 81);
+        color: rgb(131, 130, 130);
+        font-size: larger;
+        border-radius: 5px;
+    }
+    .email-btn button{
+        margin-left: 15px;
+        width: 150px;
+        height: 50px;
+        background-color:  rgb(229, 9, 20);
+        color: white;
+        border: 0;
+        font-size: larger;
+        font-weight: bolder;
+        border-radius: 5px;
+    }
+    .tv-left{
+        width: 100%;
+    }
+    .tv-right{
+        width: 100%;
+    }  
+    .footer-body{
+        padding: 60px 140px 10px 140px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media (min-width:300px) and (max-width:767.98px){
+    .icon{
+        width: 120px !important;
+    }
+    .top-right{
+        filter: brightness(1) !important;
+        width: 50% !important;
+    }
+    .top-left{
+        width: 49%;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+    .l-btn{
+        background-color: transparent;
+        border: 1px solid rgb(95, 95, 95);
+        border-radius: 5px;
+        color: white;
+        height: 25px;
+        width: 80px;
+        margin-right: 15px;
+        display: flex;
+        align-items: center;
+    }
+    .s-btn button{
+        background-color: rgb(229, 9, 20);
+        color: white;
+        width: 50px;
+        height: 25px;
+        border: 0;
+        border-radius: 5px;
+        font-weight: bolder;
+    }
+    .email-box h1{
+        font-weight: 900;
+        margin-bottom: 15px;
+    }
+    .email-box h3{
+        margin-bottom: 10px;
+    }
+    .email-box h5{
+        margin-bottom: 20px;
+    }
+    .email-btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .email{
+        outline: rgb(160, 160, 160);
+        width: 250px;
+        height: 30px;
+        background-color: transparent;
+        padding-left: 15px;
+        border: 0.5px solid rgb(81, 81, 81);
+        color: rgb(131, 130, 130);
+        font-size: medium;
+        border-radius: 5px;
+    }
+    .email-btn button{
+        width: 100px;
+        height: 30px;
+        background-color:  rgb(229, 9, 20);
+        color: white;
+        border: 0;
+        font-size:medium;
+        font-weight: bolder;
+        border-radius: 5px;
+    }
+    .tv-left{
+        width: 100%;
+    }
+    .tv-right{
+        width: 100%;
+    }  
+    .footer-body{
+        padding: 30px 50px 10px 50px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
